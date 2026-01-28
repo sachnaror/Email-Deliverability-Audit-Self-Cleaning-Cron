@@ -88,6 +88,15 @@ Designed to run as a **cron job**:
 Example:
 ```bash
 0 2 1 * * python email_deliverability_report.py
+
+Run email_deliverability_report.py at 2:00 AM on the 1st day of every month.
+
+- 0 → minute (0th minute)
+- 2 → hour (2 AM)
+- 1 → day of month (1st)
+- * → every month
+- * → every day of the week
+
 ```
 
 ---
