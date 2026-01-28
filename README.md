@@ -1,17 +1,16 @@
 # 📧 Email Deliverability Audit & Self-Cleaning System
 
 A safe, automated way to improve email deliverability without deleting real users,
-investors, or compliance-relevant records.
+subscribers, or compliance-relevant records.
 
 ---
 
 ## 🧩 Problem Statement
 
-Over time, systems accumulate bounced, invalid, and spam-reported email addresses.
-Blind deletion is risky because some emails belong to real users or investors, while
+- Over time, systems accumulate bounced, invalid, and spam-reported email addresses.
+- Blind deletion is risky because some emails belong to real users or subscribers, while
 not cleaning them hurts sender reputation and email deliverability.
-
-Manual cleanup does not scale and is error-prone.
+- Manual cleanup does not scale and is error-prone.
 
 ---
 
@@ -29,7 +28,7 @@ This project introduces a **rule-based email audit system** that:
 
 ## 🧠 Core Principle
 
-> We do not delete people.  
+> We do not delete people.
 > We control communication first and archive only clearly dead records.
 
 ---
@@ -61,11 +60,11 @@ All files are read in read-only mode from a single directory.
 
 ## 🧾 Action Policy (Final)
 
-- **Bucket A**: Stop bulk emails, allow transactional only  
-- **Bucket B**: Block all emails permanently, keep account  
-- **Bucket C**: Mark inactive, stop emails, reactivate only after login + valid email  
-- **Bucket D**: Safe to archive or soft delete (only cleanup bucket)  
-- **Bucket E**: Pause emails for 30–60 days and retry later  
+- **Bucket A**: Stop bulk emails, allow transactional only
+- **Bucket B**: Block all emails permanently, keep account
+- **Bucket C**: Mark inactive, stop emails, reactivate only after login + valid email
+- **Bucket D**: Safe to archive or soft delete (only cleanup bucket)
+- **Bucket E**: Pause emails for 30–60 days and retry later
 
 ---
 
@@ -75,7 +74,6 @@ All files are read in read-only mode from a single directory.
 - Bucket-wise counts and explanations
 - Clear **Safe Cleanup Summary** (Bucket D only)
 - Full audit table with color-coded headers
-- No technical values like `NaT` (plain English instead)
 
 ---
 
