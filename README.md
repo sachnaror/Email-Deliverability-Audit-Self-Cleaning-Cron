@@ -35,15 +35,13 @@ This project introduces a **rule-based email audit system** that:
 
 ## 📥 Video Explainer
 
-<p align="center">
-  <a href="https://youtu.be/LonMaPdc2R4" target="_blank">
-    <img
-      src="https://img.youtube.com/vi/LonMaPdc2R4/maxresdefault.jpg"
-      alt="Email Deliverability Audit – Video Explainer"
-      width="600"
-    />
-  </a>
-</p>
+<a href="https://youtu.be/LonMaPdc2R4" target="_blank">
+  <img
+    src="https://img.youtube.com/vi/LonMaPdc2R4/maxresdefault.jpg"
+    alt="Email Deliverability Audit – Video Explainer"
+    width="600"
+  />
+</a>
 
 
 ---
