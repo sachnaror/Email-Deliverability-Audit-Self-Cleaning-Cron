@@ -33,6 +33,22 @@ This project introduces a **rule-based email audit system** that:
 
 ---
 
+## 📥 Video Explainer
+
+<p align="center">
+  <iframe width="600" height="338"
+    src="https://www.youtube.com/embed/LonMaPdc2R4"
+    title="Email Deliverability Audit Explainer"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</p>
+
+
+---
+
+
 ## 📥 Input Data
 
 The script consumes CSV exports from SendGrid and internal systems:
